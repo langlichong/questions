@@ -10,3 +10,30 @@
 
 3、线上业务操作，导致锁表原因分析
   
+
+java.util.concurrent.locks.LockSupport#parkjavax.servlet.ServletRequest#startAsync()
+org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory
+cluster index non-cluster-index 区别？
+Executors VS ThreadPoolExecutor
+web 大文件上传：断点续传 or other ?
+java CAS 
+ScheduledThreadPoolExecutor 与 @Schedule 关系
+   @Scheduled是在容器初始化完毕之后，才开始丢给Java的框架去执行的
+用户文件空间限制？？
+BeanPostProcessor？？
+graphql 重构？
+ReentrantLock
+AnnotationAwareAspectJAutoProxyCreator？
+针对bean的生命周期，我们究竟能做哪些工作？
+AopContext使用场景
+过程： for ... in 
+CopyOnWriteArrayList和CopyOnWriteArraySet
+select page(); 页大小影响？？？
+将表的【启用超长记录】打开？？？
+多线程中事务控制 ？
+springboot 编程式事务 ？TransactionTemplate
+PreparedStatement 下事务控制？
+JDBCTemplate事务控制？
+suspends and resumes transactions？？
+TransactionCallbackWithoutResult ？
+DefaultTransactionDefinition？
